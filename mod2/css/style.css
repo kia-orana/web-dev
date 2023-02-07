@@ -1,0 +1,129 @@
+  /********** Base styles **********/
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: black;
+  }
+
+  h1 {
+	font-size: 1.75em;
+	margin: 20px;
+  }
+
+  p {
+	padding: 10px 15px 10px 15px;
+	clear: both;
+  }
+
+  .row {
+	width: 100%;
+	padding: 10px;
+  }
+
+  .box {
+	padding: 10px;
+  }
+
+  .card {
+	overflow: hidden;
+	background-color: #999999;
+	border: 1px solid black;
+	max-height: 200px;
+  }
+
+  .card:hover {
+	cursor: ns-resize;
+	overflow-y: scroll;
+  }
+
+  #card-one, #card-two, #card-three {
+	float: right;
+	padding: 5px 50px 5px 50px;
+	font-size: 1.25em;
+	font-weight: bold;
+	border: 1px solid black;
+  }
+
+  .title {
+	display: block;
+	text-align: center;
+  }
+
+  .mobile-title {
+	display: none;
+	font-size: 0.9em;
+	font-family: Times, "Times New Roman", Georgia, serif;
+	text-align: left;
+  }
+
+  .mobile-descr {
+	display: none;
+	font-size: 0.8em;
+  }
+
+  #card-one {
+	background-color: #d59898;
+  }
+
+  #card-two {
+	color: white;
+	background-color: #c14543;
+  }
+
+  #card-three {
+	background-color: #e5d198;
+  }
+
+  /********** desktop **********/
+  @media (min-width: 992px) {
+	.desktop {
+		width: 33.33%;
+		float: left;
+	}
+  }
+  
+  /********** tablet **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+	.tablet, .tablet-s {
+		float: left;
+	}
+	.tablet-s {
+		width: 100%;
+	}
+	.tablet {
+		width: 50%;
+	}
+  }
+
+  /********** mobile **********/
+  @media (max-width: 767px) {
+	.mobile {
+		width: 100%;
+		float: left;
+	}
+	.title {
+		display: none;
+	}
+	#card-one, #card-two, #card-three {
+		text-align: center;
+		float: none;
+	}
+	.mobile-title {
+		display: block;
+	}
+	.mobile-descr {
+		display: inline;
+	}
+	h1 {
+		margin: 20px 40px 0px 40px;
+	}
+	.row {
+		padding: 10px 30px 10px 30px;
+	}
+  }
