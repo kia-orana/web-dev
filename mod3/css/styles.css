@@ -1,0 +1,82 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: black;
+	background-color: white;
+}
+
+section {
+	background-color: #aeaeae;
+	padding: 10px 15px;
+	margin-bottom: 25px;
+}
+
+h1 {
+	margin-bottom: 20px;
+	font-size: 2em;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+#header-nav {
+	background-color: #aeaeae;
+	border-radius: 0;
+  	border: 0;
+}
+
+.navbar-brand h1 {
+  	color: black;
+  	font-size: 1.5em;
+  	margin-top: 0;
+  	margin-bottom: 0;
+  	line-height: .8;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+	background-color: #f0f0f0;
+	border: 1px solid black;
+	color: black;
+	margin-top: 0;
+  	margin-bottom: 0;
+} 
+
+#nav-list a {
+	font-size: 1.15em;
+	color: black;
+	border: 1px solid black;
+}
+
+#nav-list a:hover, #nav-list a:focus {
+	background-color: #dadce3;
+}
+
+.navbar-header .navbar-toggle {
+    border-color: black;
+}
+
+.navbar-header .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-header .navbar-toggle:hover, .navbar-header .navbar-toggle:focus {
+	background-color: #aeaeae;
+	border-color: #dadce3;
+}
+
+.navbar-header .navbar-toggle:hover .icon-bar, .navbar-header .navbar-toggle:focus .icon-bar {
+    background-color: #dadce3;
+}
+
+.to-top {
+	text-decoration: underline; 	
+}
