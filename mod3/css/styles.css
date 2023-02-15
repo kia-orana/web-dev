@@ -21,7 +21,7 @@ h1 {
 }
 
 h3 {
-    margin-top: 0;
+	margin-top: 0;
 }
 
 #header-nav {
@@ -61,11 +61,11 @@ h3 {
 }
 
 .navbar-header .navbar-toggle {
-    border-color: black;
+	border-color: black;
 }
 
 .navbar-header .navbar-toggle .icon-bar {
-    background-color: black;
+	background-color: black;
 }
 
 .navbar-header .navbar-toggle:hover, .navbar-header .navbar-toggle:focus {
@@ -74,7 +74,7 @@ h3 {
 }
 
 .navbar-header .navbar-toggle:hover .icon-bar, .navbar-header .navbar-toggle:focus .icon-bar {
-    background-color: #dadce3;
+	background-color: #dadce3;
 }
 
 .to-top {
